@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RailWays Cafe]">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test(failed)">
+    <classes>
+      <class name="com.cafe.qa.testcases.EditNewUser">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateEditUserPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cafe.qa.testcases.EditNewUser -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [RailWays Cafe] -->
